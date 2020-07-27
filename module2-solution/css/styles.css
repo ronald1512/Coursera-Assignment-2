@@ -152,7 +152,7 @@ p {
 
     .col-md-6 {
         width: 49%;
-        margin-left: 0.5%;
+        margin-left: 1%;
     }
 
     .col-md-7 {
@@ -176,8 +176,8 @@ p {
     }
 
     .col-md-12 {
-        width: 98.5%;
-        margin-left: 0.5%;
+        width: 99%;
+        margin-left: 1%;
         margin-top: 1%;
     }
 }
