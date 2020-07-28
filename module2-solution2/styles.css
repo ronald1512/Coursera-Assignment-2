@@ -1,0 +1,88 @@
+*{	
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: black;
+	margin-bottom: 25px;
+}
+
+p {
+	padding: 10px 5px 5px 5px;
+	font-family:  Arial, Helvetica, sans-serif;
+		font-size: 15px;
+	position: relative;
+}
+
+.sec { 
+	background-color: #85adad;
+   	margin-right: 20px; 
+   	margin-top: 20px; 
+   	border: 2px solid black;
+   	padding: 5px;
+   	text-align: justify;
+   	position: relative;
+ }
+
+span {
+	font-size: 20px;
+	width: 150px;
+	border: 1px solid black;
+	font-weight: bolder;
+	text-align: center;
+	float: right; 
+	top :0; 
+	right: 0; 
+	margin: 0;
+	position: absolute;
+}
+#s1 {
+	background-color: #ff6666;
+	color: black;
+}
+#s2 {
+	background-color: #6699ff;
+	color: black;
+}
+#s3 {
+	background-color: #66ff99;
+	color: black;
+}
+
+
+.row {
+	width: 100%;
+}
+
+/********FOR  Desktop  *************/
+
+@media (min-width: 992px) {
+ 
+  .col-lg-3 {
+    width: 33.33%;
+    float: left;
+	}
+}
+
+/*********FOR  Tablet  **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+    float: left;
+  }
+}
+/***********FOR  Moblie Phone  **********/
+@media (max-width: 767px)  {
+  
+  .col-xs-12 {
+  	float: left;
+    width: 100%;
+}
+  }
